@@ -13,7 +13,6 @@ router.get('/', async (req, res) => {
         res.render('authors/index', { 
             authors: authors, 
             searchOptions: req.query,
-            test: 'dit is een string'
         })
         console.log(authors);
     } catch {
